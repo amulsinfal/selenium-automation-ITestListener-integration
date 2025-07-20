@@ -45,3 +45,33 @@
 [INFO ] 2025-07-20 15:00:27.899 [main] pages.LoginPage::isPageDisplayed::45 - Login page displayed.
 [INFO ] 2025-07-20 15:00:27.900 [main] listeners.ReportListeners::onTestSuccess::20 - Test case 'testLogout' execution Passed.
 [INFO ] 2025-07-20 15:00:28.164 [main] listeners.ReportListeners::onFinish::39 - Test suite execution ended.
+[INFO ] 2025-07-20 18:16:42.125 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-20 18:16:42.151 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-20 18:16:42.217 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-20 18:16:42.219 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-20 18:16:43.096 [main] pages.LoginPage::login::29 - Entered 'standard_user' in the username textbox.
+[INFO ] 2025-07-20 18:16:43.238 [main] pages.LoginPage::login::31 - Entered 'secret_sauce' in the password textbox.
+[INFO ] 2025-07-20 18:16:43.521 [main] pages.LoginPage::login::33 - Clicked on the Login button.
+[INFO ] 2025-07-20 18:16:43.585 [main] pages.ProductsPage::isPageDisplayed::40 - Products page displayed.
+[INFO ] 2025-07-20 18:16:44.996 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-20 18:16:45.021 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-20 18:16:45.111 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-20 18:16:45.112 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-20 18:16:47.290 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-20 18:16:47.312 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-20 18:16:47.388 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-20 18:16:47.388 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-20 18:16:48.124 [main] pages.LoginPage::login::29 - Entered '' in the username textbox.
+[INFO ] 2025-07-20 18:16:48.340 [main] pages.LoginPage::login::31 - Entered '' in the password textbox.
+[INFO ] 2025-07-20 18:16:48.480 [main] pages.LoginPage::login::33 - Clicked on the Login button.
+[INFO ] 2025-07-20 18:16:48.562 [main] pages.LoginPage::getErrorText::60 - Error message displayed on Login page.
+[INFO ] 2025-07-20 18:16:50.047 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-20 18:16:50.084 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-20 18:16:50.242 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-20 18:16:50.243 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-20 18:16:50.981 [main] pages.LoginPage::login::29 - Entered 'standard_user' in the username textbox.
+[INFO ] 2025-07-20 18:16:51.126 [main] pages.LoginPage::login::31 - Entered 'secret_sauce' in the password textbox.
+[INFO ] 2025-07-20 18:16:51.324 [main] pages.LoginPage::login::33 - Clicked on the Login button.
+[INFO ] 2025-07-20 18:16:51.447 [main] pages.ProductsPage::logout::26 - Clicked on the Menu button.
+[INFO ] 2025-07-20 18:16:52.181 [main] pages.ProductsPage::logout::28 - Clicked on the Logout link.
+[INFO ] 2025-07-20 18:16:52.216 [main] pages.LoginPage::isPageDisplayed::45 - Login page displayed.
