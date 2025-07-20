@@ -14,7 +14,7 @@ import factory.DriverFactory;
 public class ScreenshotUtil {
 
 	public static String captureScreenshot(String name) {
-
+		new File("screenshots").mkdirs();
 		File source = ((TakesScreenshot) DriverFactory.getDriver()).getScreenshotAs(OutputType.FILE);
 		String fileName = "Screenshot_" + name + "_" + new SimpleDateFormat("ddMMyyyy_HHmmss").format(new Date()) + ".png";
 		String destinationPath = System.getProperty("user.dir") + "\\screenshots\\" + fileName;
