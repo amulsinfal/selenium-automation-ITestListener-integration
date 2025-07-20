@@ -29,6 +29,7 @@ public class LoginTest extends BaseTest {
 	@Test(priority = 3, groups = { "Regression" }, description = "Test to verify login with invalid credentials.")
 	public void testLoginWithInvalidCredentials() {
 		LoginPage loginPage = new LoginPage(driver);
+		@SuppressWarnings("unused")
 		ProductsPage productsPage = loginPage.login("","");
 		assertEquals(loginPage.getErrorText(), "Username Required" ,"Error message on the Login Page is incorrect.");
 	}
