@@ -1,0 +1,223 @@
+[INFO ] 2025-07-17 11:36:44.376 [main] listeners.ReportListeners::onStart::38 - Test suite execution started.
+[INFO ] 2025-07-17 11:36:46.239 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-17 11:36:46.282 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-17 11:36:46.384 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-17 11:36:46.385 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-17 11:36:46.991 [main] listeners.ReportListeners::onTestStart::15 - Test case 'testLoginWithValidCredentials' execution started.
+[INFO ] 2025-07-17 11:36:46.992 [main] listeners.ReportListeners::onTestStart::16 - Test description - 'Test to verify login with valid credentials.'.
+[INFO ] 2025-07-17 11:36:47.214 [main] pages.LoginPage::login::28 - Entered 'standard_user' in the username textbox.
+[INFO ] 2025-07-17 11:36:47.390 [main] pages.LoginPage::login::30 - Entered 'secret_sauce' in the password textbox.
+[INFO ] 2025-07-17 11:36:47.667 [main] pages.LoginPage::login::32 - Clicked on the Login button.
+[INFO ] 2025-07-17 11:36:47.670 [main] pages.ProductsPage::isPageDisplayed::40 - Products page displayed.
+[INFO ] 2025-07-17 11:36:47.738 [main] listeners.ReportListeners::onTestSuccess::21 - Test case 'testLoginWithValidCredentials' execution Passed.
+[INFO ] 2025-07-17 11:36:49.258 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-17 11:36:49.280 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-17 11:36:49.381 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-17 11:36:49.381 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-17 11:36:49.523 [main] listeners.ReportListeners::onTestStart::15 - Test case 'testLoginWithLockedCredentials' execution started.
+[INFO ] 2025-07-17 11:36:49.527 [main] listeners.ReportListeners::onTestStart::16 - Test description - 'Test to verify login with locked credentials.'.
+[WARN ] 2025-07-17 11:36:49.532 [main] listeners.ReportListeners::onTestSkipped::32 - Test case 'testLoginWithLockedCredentials' execution skipped.
+[WARN ] 2025-07-17 11:36:49.538 [main] listeners.ReportListeners::onTestSkipped::33 - Exception occured: org.testng.SkipException: This test is Intentionally skipped for ITestListener test.
+[INFO ] 2025-07-17 11:36:51.258 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-17 11:36:51.290 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-17 11:36:51.383 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-17 11:36:51.384 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-17 11:36:52.007 [main] listeners.ReportListeners::onTestStart::15 - Test case 'testLoginWithInvalidCredentials' execution started.
+[INFO ] 2025-07-17 11:36:52.008 [main] listeners.ReportListeners::onTestStart::16 - Test description - 'Test to verify login with invalid credentials.'.
+[ERROR] 2025-07-17 11:36:52.009 [main] listeners.ReportListeners::onTestFailure::26 - Test case 'testLoginWithInvalidCredentials' execution failed.
+[ERROR] 2025-07-17 11:36:52.010 [main] listeners.ReportListeners::onTestFailure::27 - Exception occured: java.lang.AssertionError: This test is Intentionally failed for ITestListener test.
+[INFO ] 2025-07-17 11:36:53.730 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-17 11:36:53.749 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-17 11:36:53.818 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-17 11:36:53.818 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-17 11:36:53.951 [main] listeners.ReportListeners::onTestStart::15 - Test case 'testLogout' execution started.
+[INFO ] 2025-07-17 11:36:53.952 [main] listeners.ReportListeners::onTestStart::16 - Test description - 'Test to verify logout functionality.'.
+[INFO ] 2025-07-17 11:36:54.593 [main] pages.LoginPage::login::28 - Entered 'standard_user' in the username textbox.
+[INFO ] 2025-07-17 11:36:54.738 [main] pages.LoginPage::login::30 - Entered 'secret_sauce' in the password textbox.
+[INFO ] 2025-07-17 11:36:54.968 [main] pages.LoginPage::login::32 - Clicked on the Login button.
+[INFO ] 2025-07-17 11:36:55.116 [main] pages.ProductsPage::logout::28 - Clicked on the Menu button.
+[INFO ] 2025-07-17 11:36:55.803 [main] pages.ProductsPage::logout::30 - Clicked on the Logout link.
+[INFO ] 2025-07-17 11:36:55.804 [main] pages.LoginPage::isPageDisplayed::42 - Login page displayed.
+[INFO ] 2025-07-17 11:36:55.838 [main] listeners.ReportListeners::onTestSuccess::21 - Test case 'testLogout' execution Passed.
+[INFO ] 2025-07-17 11:36:56.071 [main] listeners.ReportListeners::onFinish::43 - Test suite execution ended.
+[INFO ] 2025-07-17 11:48:08.898 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-17 11:48:08.989 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-17 11:48:09.058 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-17 11:48:09.060 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-17 11:48:09.913 [main] pages.LoginPage::login::28 - Entered 'standard_user' in the username textbox.
+[INFO ] 2025-07-17 11:48:10.068 [main] pages.LoginPage::login::30 - Entered 'secret_sauce' in the password textbox.
+[INFO ] 2025-07-17 11:48:10.320 [main] pages.LoginPage::login::32 - Clicked on the Login button.
+[INFO ] 2025-07-17 11:48:10.322 [main] pages.ProductsPage::isPageDisplayed::40 - Products page displayed.
+[INFO ] 2025-07-17 11:48:12.132 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-17 11:48:12.151 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-17 11:48:12.221 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-17 11:48:12.223 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-17 11:48:14.495 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-17 11:48:14.527 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-17 11:48:14.595 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-17 11:48:14.595 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-17 11:48:16.435 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-17 11:48:16.456 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-17 11:48:16.513 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-17 11:48:16.515 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-17 11:48:17.487 [main] pages.LoginPage::login::28 - Entered 'standard_user' in the username textbox.
+[INFO ] 2025-07-17 11:48:17.620 [main] pages.LoginPage::login::30 - Entered 'secret_sauce' in the password textbox.
+[INFO ] 2025-07-17 11:48:17.851 [main] pages.LoginPage::login::32 - Clicked on the Login button.
+[INFO ] 2025-07-17 11:48:17.969 [main] pages.ProductsPage::logout::28 - Clicked on the Menu button.
+[INFO ] 2025-07-17 11:48:18.675 [main] pages.ProductsPage::logout::30 - Clicked on the Logout link.
+[INFO ] 2025-07-17 11:48:18.679 [main] pages.LoginPage::isPageDisplayed::42 - Login page displayed.
+[INFO ] 2025-07-17 11:50:15.392 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-17 11:50:15.419 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-17 11:50:15.518 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-17 11:50:15.519 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-17 11:50:16.334 [main] pages.LoginPage::login::28 - Entered 'standard_user' in the username textbox.
+[INFO ] 2025-07-17 11:50:16.603 [main] pages.LoginPage::login::30 - Entered 'secret_sauce' in the password textbox.
+[INFO ] 2025-07-17 11:50:16.834 [main] pages.LoginPage::login::32 - Clicked on the Login button.
+[INFO ] 2025-07-17 11:50:16.836 [main] pages.ProductsPage::isPageDisplayed::40 - Products page displayed.
+[INFO ] 2025-07-17 11:50:18.458 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-17 11:50:18.512 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-17 11:50:18.570 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-17 11:50:18.570 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-17 11:50:20.767 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-17 11:50:20.788 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-17 11:50:20.913 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-17 11:50:20.914 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-17 11:50:22.936 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-17 11:50:22.965 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-17 11:50:23.040 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-17 11:50:23.041 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-17 11:50:23.853 [main] pages.LoginPage::login::28 - Entered 'standard_user' in the username textbox.
+[INFO ] 2025-07-17 11:50:23.992 [main] pages.LoginPage::login::30 - Entered 'secret_sauce' in the password textbox.
+[INFO ] 2025-07-17 11:50:24.215 [main] pages.LoginPage::login::32 - Clicked on the Login button.
+[INFO ] 2025-07-17 11:50:24.406 [main] pages.ProductsPage::logout::28 - Clicked on the Menu button.
+[INFO ] 2025-07-17 11:50:25.064 [main] pages.ProductsPage::logout::30 - Clicked on the Logout link.
+[INFO ] 2025-07-17 11:50:25.068 [main] pages.LoginPage::isPageDisplayed::42 - Login page displayed.
+[INFO ] 2025-07-19 15:38:47.660 [main] listeners.ReportListeners::onStart::38 - Test suite execution started.
+[INFO ] 2025-07-19 15:38:49.674 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-19 15:38:49.712 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-19 15:38:49.764 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-19 15:38:49.765 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-19 15:38:50.912 [main] listeners.ReportListeners::onTestStart::15 - Test case 'testLoginWithValidCredentials' execution started.
+[INFO ] 2025-07-19 15:38:50.912 [main] listeners.ReportListeners::onTestStart::16 - Test description - 'Test to verify login with valid credentials.'.
+[INFO ] 2025-07-19 15:38:51.108 [main] pages.LoginPage::login::26 - Entered 'standard_user' in the username textbox.
+[INFO ] 2025-07-19 15:38:51.224 [main] pages.LoginPage::login::28 - Entered 'secret_sauce' in the password textbox.
+[INFO ] 2025-07-19 15:38:51.377 [main] pages.LoginPage::login::30 - Clicked on the Login button.
+[INFO ] 2025-07-19 15:38:51.380 [main] pages.ProductsPage::isPageDisplayed::40 - Products page displayed.
+[INFO ] 2025-07-19 15:38:51.459 [main] listeners.ReportListeners::onTestSuccess::21 - Test case 'testLoginWithValidCredentials' execution Passed.
+[INFO ] 2025-07-19 15:38:52.928 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-19 15:38:52.949 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-19 15:38:53.029 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-19 15:38:53.030 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-19 15:38:56.228 [main] listeners.ReportListeners::onTestStart::15 - Test case 'testLoginWithLockedCredentials' execution started.
+[INFO ] 2025-07-19 15:38:56.229 [main] listeners.ReportListeners::onTestStart::16 - Test description - 'Test to verify login with locked credentials.'.
+[WARN ] 2025-07-19 15:38:56.231 [main] listeners.ReportListeners::onTestSkipped::32 - Test case 'testLoginWithLockedCredentials' execution skipped.
+[WARN ] 2025-07-19 15:38:56.232 [main] listeners.ReportListeners::onTestSkipped::33 - Exception occured: org.testng.SkipException: This test is Intentionally skipped for ITestListener test.
+[INFO ] 2025-07-19 15:38:57.565 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-19 15:38:57.587 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-19 15:38:57.671 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-19 15:38:57.671 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-19 15:38:57.898 [main] listeners.ReportListeners::onTestStart::15 - Test case 'testLoginWithInvalidCredentials' execution started.
+[INFO ] 2025-07-19 15:38:57.902 [main] listeners.ReportListeners::onTestStart::16 - Test description - 'Test to verify login with invalid credentials.'.
+[ERROR] 2025-07-19 15:38:57.904 [main] listeners.ReportListeners::onTestFailure::26 - Test case 'testLoginWithInvalidCredentials' execution failed.
+[ERROR] 2025-07-19 15:38:57.905 [main] listeners.ReportListeners::onTestFailure::27 - Exception occured: java.lang.AssertionError: This test is Intentionally failed for ITestListener test.
+[INFO ] 2025-07-19 15:38:59.419 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-19 15:38:59.452 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-19 15:38:59.523 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-19 15:38:59.523 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-19 15:39:00.268 [main] listeners.ReportListeners::onTestStart::15 - Test case 'testLogout' execution started.
+[INFO ] 2025-07-19 15:39:00.271 [main] listeners.ReportListeners::onTestStart::16 - Test description - 'Test to verify logout functionality.'.
+[INFO ] 2025-07-19 15:39:00.479 [main] pages.LoginPage::login::26 - Entered 'standard_user' in the username textbox.
+[INFO ] 2025-07-19 15:39:00.628 [main] pages.LoginPage::login::28 - Entered 'secret_sauce' in the password textbox.
+[INFO ] 2025-07-19 15:39:00.805 [main] pages.LoginPage::login::30 - Clicked on the Login button.
+[INFO ] 2025-07-19 15:39:00.937 [main] pages.ProductsPage::logout::28 - Clicked on the Menu button.
+[INFO ] 2025-07-19 15:39:01.591 [main] pages.ProductsPage::logout::30 - Clicked on the Logout link.
+[INFO ] 2025-07-19 15:39:01.628 [main] pages.LoginPage::isPageDisplayed::42 - Login page displayed.
+[INFO ] 2025-07-19 15:39:01.629 [main] listeners.ReportListeners::onTestSuccess::21 - Test case 'testLogout' execution Passed.
+[INFO ] 2025-07-19 15:39:01.891 [main] listeners.ReportListeners::onFinish::43 - Test suite execution ended.
+[INFO ] 2025-07-20 12:26:01.975 [main] listeners.ReportListeners::onStart::41 - Test suite execution started.
+[INFO ] 2025-07-20 12:26:04.333 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-20 12:26:04.382 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-20 12:26:04.453 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-20 12:26:04.453 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-20 12:26:05.188 [main] listeners.ReportListeners::onTestStart::17 - Test case 'testLoginWithValidCredentials' execution started.
+[INFO ] 2025-07-20 12:26:05.189 [main] listeners.ReportListeners::onTestStart::18 - Test description - 'Test to verify login with valid credentials.'.
+[INFO ] 2025-07-20 12:26:05.402 [main] pages.LoginPage::login::26 - Entered 'standard_user' in the username textbox.
+[INFO ] 2025-07-20 12:26:05.532 [main] pages.LoginPage::login::28 - Entered 'secret_sauce' in the password textbox.
+[INFO ] 2025-07-20 12:26:05.686 [main] pages.LoginPage::login::30 - Clicked on the Login button.
+[INFO ] 2025-07-20 12:26:05.696 [main] pages.ProductsPage::isPageDisplayed::40 - Products page displayed.
+[INFO ] 2025-07-20 12:26:05.811 [main] listeners.ReportListeners::onTestSuccess::23 - Test case 'testLoginWithValidCredentials' execution Passed.
+[INFO ] 2025-07-20 12:26:07.163 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-20 12:26:07.190 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-20 12:26:07.275 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-20 12:26:07.275 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-20 12:26:07.849 [main] listeners.ReportListeners::onTestStart::17 - Test case 'testLoginWithLockedCredentials' execution started.
+[INFO ] 2025-07-20 12:26:07.850 [main] listeners.ReportListeners::onTestStart::18 - Test description - 'Test to verify login with locked credentials.'.
+[WARN ] 2025-07-20 12:26:07.854 [main] listeners.ReportListeners::onTestSkipped::34 - Test case 'testLoginWithLockedCredentials' execution skipped.
+[WARN ] 2025-07-20 12:26:07.855 [main] listeners.ReportListeners::onTestSkipped::35 - Exception occured: org.testng.SkipException: This test is Intentionally skipped for ITestListener test.
+[ERROR] 2025-07-20 12:26:08.169 [main] listeners.ReportListeners::onTestFailure::28 - Test case 'testLoginWithLockedCredentials' execution failed.
+[ERROR] 2025-07-20 12:26:08.170 [main] listeners.ReportListeners::onTestFailure::29 - Exception occured: java.lang.RuntimeException: Error occured while copying screenshot to C:\Software_Testing\Automation_Testing\automationSnippits\eclipse-workspace\selenium-automation-ITestListener-integration\screenshots\Screenshot_testLoginWithLockedCredentials_20072025_122608.png
+[INFO ] 2025-07-20 12:26:09.295 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-20 12:26:09.322 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-20 12:26:09.378 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-20 12:26:09.390 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-20 12:26:10.056 [main] listeners.ReportListeners::onTestStart::17 - Test case 'testLoginWithInvalidCredentials' execution started.
+[INFO ] 2025-07-20 12:26:10.057 [main] listeners.ReportListeners::onTestStart::18 - Test description - 'Test to verify login with invalid credentials.'.
+[ERROR] 2025-07-20 12:26:10.058 [main] listeners.ReportListeners::onTestFailure::28 - Test case 'testLoginWithInvalidCredentials' execution failed.
+[ERROR] 2025-07-20 12:26:10.059 [main] listeners.ReportListeners::onTestFailure::29 - Exception occured: java.lang.AssertionError: This test is Intentionally failed for ITestListener test.
+[INFO ] 2025-07-20 12:26:11.374 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-20 12:26:11.458 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-20 12:26:11.549 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-20 12:26:11.550 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-20 12:26:12.129 [main] listeners.ReportListeners::onTestStart::17 - Test case 'testLogout' execution started.
+[INFO ] 2025-07-20 12:26:12.129 [main] listeners.ReportListeners::onTestStart::18 - Test description - 'Test to verify logout functionality.'.
+[INFO ] 2025-07-20 12:26:12.362 [main] pages.LoginPage::login::26 - Entered 'standard_user' in the username textbox.
+[INFO ] 2025-07-20 12:26:12.511 [main] pages.LoginPage::login::28 - Entered 'secret_sauce' in the password textbox.
+[INFO ] 2025-07-20 12:26:12.752 [main] pages.LoginPage::login::30 - Clicked on the Login button.
+[INFO ] 2025-07-20 12:26:12.897 [main] pages.ProductsPage::logout::28 - Clicked on the Menu button.
+[INFO ] 2025-07-20 12:26:13.600 [main] pages.ProductsPage::logout::30 - Clicked on the Logout link.
+[INFO ] 2025-07-20 12:26:13.637 [main] pages.LoginPage::isPageDisplayed::42 - Login page displayed.
+[INFO ] 2025-07-20 12:26:13.638 [main] listeners.ReportListeners::onTestSuccess::23 - Test case 'testLogout' execution Passed.
+[INFO ] 2025-07-20 12:26:13.985 [main] listeners.ReportListeners::onFinish::46 - Test suite execution ended.
+[INFO ] 2025-07-20 12:26:51.715 [main] listeners.ReportListeners::onStart::41 - Test suite execution started.
+[INFO ] 2025-07-20 12:26:53.534 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-20 12:26:53.571 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-20 12:26:53.628 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-20 12:26:53.632 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-20 12:26:54.232 [main] listeners.ReportListeners::onTestStart::17 - Test case 'testLoginWithValidCredentials' execution started.
+[INFO ] 2025-07-20 12:26:54.233 [main] listeners.ReportListeners::onTestStart::18 - Test description - 'Test to verify login with valid credentials.'.
+[INFO ] 2025-07-20 12:26:54.448 [main] pages.LoginPage::login::26 - Entered 'standard_user' in the username textbox.
+[INFO ] 2025-07-20 12:26:54.591 [main] pages.LoginPage::login::28 - Entered 'secret_sauce' in the password textbox.
+[INFO ] 2025-07-20 12:26:54.760 [main] pages.LoginPage::login::30 - Clicked on the Login button.
+[INFO ] 2025-07-20 12:26:54.763 [main] pages.ProductsPage::isPageDisplayed::40 - Products page displayed.
+[INFO ] 2025-07-20 12:26:54.845 [main] listeners.ReportListeners::onTestSuccess::23 - Test case 'testLoginWithValidCredentials' execution Passed.
+[INFO ] 2025-07-20 12:26:56.305 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-20 12:26:56.324 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-20 12:26:56.369 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-20 12:26:56.371 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-20 12:26:56.500 [main] listeners.ReportListeners::onTestStart::17 - Test case 'testLoginWithLockedCredentials' execution started.
+[INFO ] 2025-07-20 12:26:56.502 [main] listeners.ReportListeners::onTestStart::18 - Test description - 'Test to verify login with locked credentials.'.
+[WARN ] 2025-07-20 12:26:56.505 [main] listeners.ReportListeners::onTestSkipped::34 - Test case 'testLoginWithLockedCredentials' execution skipped.
+[WARN ] 2025-07-20 12:26:56.505 [main] listeners.ReportListeners::onTestSkipped::35 - Exception occured: org.testng.SkipException: This test is Intentionally skipped for ITestListener test.
+[INFO ] 2025-07-20 12:26:57.189 [main] listeners.ReportListeners::onTestSkipped::36 - Screenshot captured | C:\Software_Testing\Automation_Testing\automationSnippits\eclipse-workspace\selenium-automation-ITestListener-integration\screenshots\Screenshot_testLoginWithLockedCredentials_20072025_122657.png
+[INFO ] 2025-07-20 12:26:58.464 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-20 12:26:58.486 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-20 12:26:58.540 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-20 12:26:58.541 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-20 12:26:59.223 [main] listeners.ReportListeners::onTestStart::17 - Test case 'testLoginWithInvalidCredentials' execution started.
+[INFO ] 2025-07-20 12:26:59.223 [main] listeners.ReportListeners::onTestStart::18 - Test description - 'Test to verify login with invalid credentials.'.
+[ERROR] 2025-07-20 12:26:59.225 [main] listeners.ReportListeners::onTestFailure::28 - Test case 'testLoginWithInvalidCredentials' execution failed.
+[ERROR] 2025-07-20 12:26:59.225 [main] listeners.ReportListeners::onTestFailure::29 - Exception occured: java.lang.AssertionError: This test is Intentionally failed for ITestListener test.
+[INFO ] 2025-07-20 12:27:00.692 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-20 12:27:00.717 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-20 12:27:00.769 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-20 12:27:00.770 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-20 12:27:01.347 [main] listeners.ReportListeners::onTestStart::17 - Test case 'testLogout' execution started.
+[INFO ] 2025-07-20 12:27:01.351 [main] listeners.ReportListeners::onTestStart::18 - Test description - 'Test to verify logout functionality.'.
+[INFO ] 2025-07-20 12:27:01.556 [main] pages.LoginPage::login::26 - Entered 'standard_user' in the username textbox.
+[INFO ] 2025-07-20 12:27:01.695 [main] pages.LoginPage::login::28 - Entered 'secret_sauce' in the password textbox.
+[INFO ] 2025-07-20 12:27:01.913 [main] pages.LoginPage::login::30 - Clicked on the Login button.
+[INFO ] 2025-07-20 12:27:02.054 [main] pages.ProductsPage::logout::28 - Clicked on the Menu button.
+[INFO ] 2025-07-20 12:27:02.722 [main] pages.ProductsPage::logout::30 - Clicked on the Logout link.
+[INFO ] 2025-07-20 12:27:02.753 [main] pages.LoginPage::isPageDisplayed::42 - Login page displayed.
+[INFO ] 2025-07-20 12:27:02.754 [main] listeners.ReportListeners::onTestSuccess::23 - Test case 'testLogout' execution Passed.
+[INFO ] 2025-07-20 12:27:02.998 [main] listeners.ReportListeners::onFinish::46 - Test suite execution ended.
