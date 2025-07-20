@@ -8,13 +8,16 @@ import org.openqa.selenium.WebDriver;
 import utilities.WaitUtil;
 
 public class LoginPage {
+	
 	protected WebDriver driver;
 	protected WaitUtil waitUtil;
 	private static final Logger log = LogManager.getLogger(LoginPage.class);
+
 	private By txtUsername = By.id("user-name");
 	private By txtPassword = By.id("password");
 	private By btnLogin = By.id("login-button");
-	
+	private By lblError = By.xpath("//h3[@data-test='error']");
+
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;
 		waitUtil = new WaitUtil(driver);
@@ -34,7 +37,7 @@ public class LoginPage {
 			return null;
 		}
 	}
-
+	
 	public boolean isPageDisplayed() {
 		try {
 			boolean isVisible = waitUtil.waitForElementToBeVisible(btnLogin).isDisplayed();
@@ -49,4 +52,21 @@ public class LoginPage {
 			return false;
 		}
 	}
+	
+	public String getErrorText() {
+		try {
+			if (waitUtil.waitForElementToBeVisible(lblError).isDisplayed()) {
+				String errorMsg = waitUtil.waitForElementToBeVisible(lblError).getText();
+				log.info("Error message displayed on Login page.");
+				return errorMsg;
+			} else {
+				log.warn("Error message not displayed.");
+				return "";
+			}
+		} catch (Exception e) {
+			log.error("Unable to get error message from Login page. Exception occurred: ", e);
+			return "";
+		}
+	}
+
 }

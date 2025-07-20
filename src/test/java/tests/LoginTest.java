@@ -1,7 +1,7 @@
 package tests;
 
+import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
-import static org.testng.Assert.fail;
 
 import org.testng.SkipException;
 import org.testng.annotations.Test;
@@ -28,7 +28,8 @@ public class LoginTest extends BaseTest {
 
 	@Test(priority = 3, groups = { "Regression" }, description = "Test to verify login with invalid credentials.")
 	public void testLoginWithInvalidCredentials() {
-		// Failed for testing ITestListener implementation.
-	    fail("This test is Intentionally failed for ITestListener test.");
+		LoginPage loginPage = new LoginPage(driver);
+		ProductsPage productsPage = loginPage.login("","");
+		assertEquals(loginPage.getErrorText(), "Username Required" ,"Error message on the Login Page is incorrect.");
 	}
 }

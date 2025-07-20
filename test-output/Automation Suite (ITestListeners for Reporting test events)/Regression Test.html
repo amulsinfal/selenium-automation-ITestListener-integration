@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>2/1/1</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Jul 20 13:41:14 IST 2025</td>
+<td>Started on:</td><td>Sun Jul 20 15:00:15 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>12 seconds (12477 ms)</td>
+<tr><td>Total time:</td><td>12 seconds (12387 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,13 +77,17 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='tests.LoginTest.testLoginWithInvalidCredentials()'><b>testLoginWithInvalidCredentials</b><br>Test class: tests.LoginTest<br>Test method: Test to verify login with invalid credentials.</td>
-<td><div><pre>java.lang.AssertionError: This test is Intentionally failed for ITestListener test.
-	at tests.LoginTest.testLoginWithInvalidCredentials(LoginTest.java:32)
+<td><div><pre>java.lang.AssertionError: Error message on the Login Page is incorrect. expected [Username Required] but found [Epic sadface: Username is required]
+	at tests.LoginTest.testLoginWithInvalidCredentials(LoginTest.java:33)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1399398408", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1399398408'><pre>java.lang.AssertionError: This test is Intentionally failed for ITestListener test.
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1701646500", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1701646500'><pre>java.lang.AssertionError: Error message on the Login Page is incorrect. expected [Username Required] but found [Epic sadface: Username is required]
 	at org.testng.Assert.fail(Assert.java:111)
-	at tests.LoginTest.testLoginWithInvalidCredentials(LoginTest.java:32)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at tests.LoginTest.testLoginWithInvalidCredentials(LoginTest.java:33)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -123,15 +127,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.LoginTest.testLoginWithValidCredentials()'><b>testLoginWithValidCredentials</b><br>Test class: tests.LoginTest<br>Test method: Test to verify login with valid credentials.</td>
-<td></td>
-<td>0</td>
-<td>tests.LoginTest@62010f5c</td></tr>
-<tr>
 <td title='tests.LogoutTest.testLogout()'><b>testLogout</b><br>Test class: tests.LogoutTest<br>Test method: Test to verify logout functionality.</td>
 <td></td>
 <td>1</td>
 <td>tests.LogoutTest@5f9be66c</td></tr>
+<tr>
+<td title='tests.LoginTest.testLoginWithValidCredentials()'><b>testLoginWithValidCredentials</b><br>Test class: tests.LoginTest<br>Test method: Test to verify login with valid credentials.</td>
+<td></td>
+<td>0</td>
+<td>tests.LoginTest@62010f5c</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -146,8 +150,8 @@ function toggleAllBoxes() {
 <td><div><pre>org.testng.SkipException: This test is Intentionally skipped for ITestListener test.
 	at tests.LoginTest.testLoginWithLockedCredentials(LoginTest.java:26)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1202907617", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1202907617'><pre>org.testng.SkipException: This test is Intentionally skipped for ITestListener test.
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1682157864", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1682157864'><pre>org.testng.SkipException: This test is Intentionally skipped for ITestListener test.
 	at tests.LoginTest.testLoginWithLockedCredentials(LoginTest.java:26)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)

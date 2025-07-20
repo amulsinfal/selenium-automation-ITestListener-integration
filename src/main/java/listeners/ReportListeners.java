@@ -23,12 +23,12 @@ public class ReportListeners implements ITestListener {
 	public void onTestFailure(ITestResult result) {
 		log.error("Test case '" + result.getMethod().getMethodName() + "' execution failed.");
 		log.error("Exception occured: " + result.getThrowable());
+		log.info("Screenshot captured and saved at following location: " + ScreenshotUtil.captureScreenshot(result.getMethod().getMethodName()));
 	}
 	@Override
 	public void onTestSkipped(ITestResult result) {
 		log.warn("Test case '" + result.getMethod().getMethodName() + "' execution skipped.");
 		log.warn("Exception occured: " + result.getThrowable());
-		log.info("Screenshot captured and saved at following location: " + ScreenshotUtil.captureScreenshot(result.getMethod().getMethodName()));
 	}
 	@Override
 	public void onStart(ITestContext context) {
