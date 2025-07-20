@@ -40,7 +40,7 @@ A automation framework is more than just passing tests — it's about knowing wh
    - `onTestSuccess`
    - `onTestFailure` (triggers screenshot capture)
    - `onTestSkipped`
-    <img width="1034" height="910" alt="" src="https://github.com/user-attachments/assets/b59deb93-b994-49ef-a29b-413fdf89e649" />  
+<img width="1408" alt="02_ReportListener_class" src="https://github.com/user-attachments/assets/ae350478-be98-4c36-9077-48dd882acff1" />
 
 2. **Integrated listener in `testng.xml`**  
    Registered the `ReportListeners` class to activate listener behavior during test execution:
@@ -48,7 +48,7 @@ A automation framework is more than just passing tests — it's about knowing wh
 
 3. **Utilized ScreenshotUtil.java**  
   Developed a reusable utility for automated screenshot capture, especially for failed test cases. Captured images are saved with timestamped names for easy identification.
-    <img width="1393" height="427" alt="" src="https://github.com/user-attachments/assets/eda2a6cc-3596-48c4-bb93-3ef425dab164" />
+<img width="1408" alt="03_SceenshotUtil" src="https://github.com/user-attachments/assets/dd22eda2-e400-4db2-bdd7-59d645867b6d" />
 
 4. **Enabled Logging with automation.log**
   All test events and exceptions are logged using Log4j2:
